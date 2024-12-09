@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 34vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 30%;
+  }
+  
+  .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+    background: none;
+  }
+  
+  .logo-image {
+    width: 100px; 
+    height: auto;
+    background: none;
+  }
+  
+  .title {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    text-decoration: underline;
+  }
+
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 70%;
+    padding: 200px;
+  }
+  
+  .genres-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .genre-button {
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .genre-button.selected {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+
+  .genre-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .add-button {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .next-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #444;
+  }
+  
